@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class reverse 
+public class Reverseleet 
 {
     public static void main(String[] args)
     {
@@ -12,7 +12,7 @@ public class reverse
             rev=rev*10+digit;
             n=n/10;
         }
-        System.out.println("the reversrd number is "+rev);
+        System.out.println("The reversrd number is "+rev);
         sc.close();
     }
     
