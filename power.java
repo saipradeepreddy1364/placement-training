@@ -1,4 +1,5 @@
-import java.util.Scanner;
+//power of a number using function
+/*import java.util.Scanner;
 public class power 
 {
     public void pow(double a,int b)
@@ -15,4 +16,23 @@ public static void main(String[] args)
     p.pow(c,d);
     b.close();
 }
+}*/
+//power of a number using for loop
+import java.util.Scanner;
+public class power
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+    int a=sc.nextInt();
+    int b=sc.nextInt();
+    int result=1;
+    for(int i=1;i<=b;i++)
+        {
+            result*=a;
+        }
+    System.out.println(a+" power "+b+" is: "+result);
+    sc.close();
+    }
+    
 }
