@@ -32,6 +32,5 @@ public static void main(String[] args)
     int n=sc.nextInt();
     sc.close();
     System.out.println(mypow(x,n));
-
 }
 }
